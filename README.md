@@ -84,13 +84,16 @@ head\
   ### 2. Git clone by this link on your local mechine
   #### git clone https://github.com/Md-Rony-Khan/TailwindCSS.git
   Give this command in your local mechine terminal.
-  ### 3. Checkout to "boilerPlate" Branch
+  ### 3. Go into TailwindCSS directory
+  #### cd TailwindCSS
+  Give this command in your local mechine terminal.
+  ### 4. Checkout to "boilerPlate" Branch
   #### git checkout boilerPlate
   Give this command in your local mechine terminal.
-  ### 4. open this project on your vsCode by this Command
+  ### 5. open this project on your vsCode by this Command
   #### code .
   Give this command in your local mechine terminal.
-  ### 5. Install node modules
+  ### 6. Install node modules
   #### npm i
   Give this command on your vs code terminal
 
