@@ -4,7 +4,7 @@
 2. Install as PostCSS Plugin
 3. Install Tailwind CLI ( Best Approach ).
 ## Prerequisite of installing Tailwind CSS
-Your local mechine already should have installed node >= 12.3.0 version.
+Your local mechine already should have installed node >= 12.3.0 version.\
 To check node version on pc, terminal -> node -v
 ## Setup Procedure step by step
 ### Make a Directory
