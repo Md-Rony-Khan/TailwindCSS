@@ -10,7 +10,7 @@ To check node version on pc, terminal -> node -v
 ### Make a Directory
 1.make a directory by any name ,such as "tailwindCSS".\
 2.cd tailwindCSS\
-3.Now follow the below procedures.\ 
+3.Now follow the below procedures. 
 
 ### 1. "npm init -y" 
 Apply this command on terminal, To initialize Node Project.
@@ -23,7 +23,7 @@ Apply this command on terminal, To make a configuration file for tailwind css. (
 ### 5. output & src folder
 create 2 folder, named "src" and "output" under the main directory "tailwindCSS".\
 output-> tailwind compiler compailed the src tailwindCSS and provide compiled vanilla css in this output folder.\
-src-> This is the source folder of tailwindCSS.\
+src-> This is the source folder of tailwindCSS.
 
 ### 6. create "src/tailwind.css" file
 create a "tailwind.css" file under "src" folder.
@@ -32,19 +32,19 @@ create a "tailwind.css" file under "src" folder.
 Edit the tailwind.css file and write these 3 line,\
 @tailwind base;\
 @tailwind components;\
-@tailwind utilities;\
+@tailwind utilities;
 
 ### 8. Create ".vscode/settings.json" file
 To create this file you have to,
-1. first go "vs code settings", (shortcut->  " ctrl+, "  )\
-2. Click "workspace"\
-3. click top right corner "file sign" -> (open settings JSON)\
+1. first go "vs code settings", (shortcut->  " ctrl+, "  )
+2. Click "workspace"
+3. click top right corner "file sign" -> (open settings JSON)
 
 ### 9. edit ".vscode/settings.json" file
 {\
   "css.validate" : false,\
   "tailwindCSS.emmetCompletions": true,\
-}\
+}
 
 ### 10. create a "build" script
 edit "package.josn" file,\
@@ -53,11 +53,11 @@ edit "package.josn" file,\
   ......\
   "scripts":{\
     "build": "tailwindcss -i ./src/tailwind.css -o ./output/tailwind.css -w"\
-  },\
+  },
   
   .....\
   ....\
-}\
+}
 
 ### 11. create "index.html" file
 create a "index.html" file under the main directory "tailwindCSS".
@@ -70,7 +70,7 @@ head\
   link rel="stylesheet" href="./output/tailwind.css"\
   .....\
   ....\
-  head\
+  head
   
   
   ### 12. "pm run build"
@@ -79,18 +79,18 @@ head\
   ## After this you are now ready to rock with tailwind CSS. This is your full installation Procedure and also your tailwind css boilerPlate.
   
   ## If you want direct boilerPlate of tailwind CSS, Then
-  ### Copy Below Link
+  ### 1. Copy Below Link
   #### Link: https://github.com/Md-Rony-Khan/TailwindCSS.git
-  ### Git clone by this link on your local mechine
+  ### 2. Git clone by this link on your local mechine
   #### git clone https://github.com/Md-Rony-Khan/TailwindCSS.git
   Give this command in your local mechine terminal.
-  ### Checkout to "boilerPlate" Branch
+  ### 3. Checkout to "boilerPlate" Branch
   #### git checkout boilerPlate
   Give this command in your local mechine terminal.
-  ### open this project on your vsCode by this Command
+  ### 4. open this project on your vsCode by this Command
   #### code .
   Give this command in your local mechine terminal.
-  ### Install node modules
+  ### 5. Install node modules
   #### npm i
   Give this command on your vs code terminal
 
