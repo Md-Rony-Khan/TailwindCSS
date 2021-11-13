@@ -73,7 +73,7 @@ head\
   head
   
   
-  ### 12. "pm run build"
+  ### 12. "npm run build"
   Give this command on terminal , To build tailwind.
   
   ## After this you are now ready to rock with tailwind CSS. This is your full installation Procedure and also your tailwind css boilerPlate.
